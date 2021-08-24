@@ -714,9 +714,19 @@ section {
   width: 100%;
 }
 
-.timeline-event-copy p:not(.timeline-event-thumbnail) {
+.timeline-event-copy li {
+  list-style-type: none;
   padding-right: 45px;
   font-family: "Open Sans", sans-serif;
+}
+
+.timeline-event-copy li::before {
+  content: "\2013";
+  color:#690401;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .timeline-event-copy h4 {
