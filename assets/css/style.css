@@ -441,6 +441,7 @@ section {
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #6b2a28;
+  /* margin: 0 100px 0 70px; */
 }
 
 #about .div-img-bg .about-img img {
